@@ -10,6 +10,7 @@ const returnIndicies = (target, nums) => {
 			if (val1 + val2 === target) return [i, j];
 		}
 	}
+	return "Não há par que somado corresponda ao valor pedido.";
 };
 
 console.log(returnIndicies(target, nums));
